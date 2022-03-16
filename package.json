@@ -3,9 +3,14 @@
     "displayName": "vitesse-qb",
     "description": "fork by vitesse theme",
     "version": "0.0.1",
+    "publisher": "Zhengqbbb",
     "engines": {
         "vscode": "^1.65.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zhengqbbb/vitesse-qb"
+      },
     "categories": [
         "Themes"
     ],
