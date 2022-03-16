@@ -7,20 +7,26 @@
     "engines": {
         "vscode": "^1.65.0"
     },
+    "keywords": [
+        "theme",
+        "vitesse",
+        "dark"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Zhengqbbb/vitesse-qb"
-      },
+    },
     "categories": [
         "Themes"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Zhengqbbb",
+                "label": "Vitesse qb dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Zhengqbbb-color-theme.json"
             }
         ]
-    }
+    },
+    "icon": "icon.png"
 }
