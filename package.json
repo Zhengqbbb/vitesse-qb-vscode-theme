@@ -1,0 +1,21 @@
+{
+    "name": "vitesse-qb-vscode-theme",
+    "displayName": "vitesse-qb",
+    "description": "fork by vitesse theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zhengqbbb",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zhengqbbb-color-theme.json"
+            }
+        ]
+    }
+}
