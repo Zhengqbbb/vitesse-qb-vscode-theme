@@ -322,7 +322,6 @@
 	  {
 		"scope": [
 			"support",
-			"keyword.operator.list.shell"
 		],
 		"settings": {
 		  "foreground": "#7aa0f3"
@@ -374,6 +373,7 @@
 			"keyword.control.shell",
 			"keyword.control.awk",
 		  	"keyword.other.command.awk",
+			"keyword.operator.list.shell"
 		],
 		"settings": {
 		  "foreground": "#e06c76f3"
