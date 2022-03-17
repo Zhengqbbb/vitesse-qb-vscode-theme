@@ -362,7 +362,7 @@
 		"scope": [
 			"support.type.property-name.css",
 			"entity.name.tag.css",
-			"keyword.control.shell",
+			"support.function.builtin.shell",
 		],
 		"settings": {
 		  "foreground": "#20d4bc"
@@ -370,11 +370,12 @@
 	  },
 	  {
 		"scope": [
+			"keyword.control.shell",
 			"keyword.control.awk",
 		  	"keyword.other.command.awk",
 		],
 		"settings": {
-		  "foreground": "#e06c75"
+		  "foreground": "#e06c76f3"
 		}
 	  },
 	  {
