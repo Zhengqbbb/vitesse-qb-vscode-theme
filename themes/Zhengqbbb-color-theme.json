@@ -68,7 +68,7 @@
 	  "notificationsInfoIcon.foreground": "#6394bf",
 	  "pickerGroup.border": "#444d56",
 	  "pickerGroup.foreground": "#dbd7ca",
-	  "quickInput.background": "#191a1d",
+	  "quickInput.background": "#222327",
 	  "quickInput.foreground": "#dbd7ca",
 	  "statusBar.foreground": "#bfbaaa",
 	  "statusBar.background": "#191a1d",
@@ -126,23 +126,6 @@
 	  "panelTitle.activeForeground": "#dbd7ca",
 	  "panelTitle.inactiveForeground": "#959da5",
 	  "panelInput.border": "#2f363d",
-	  "terminal.foreground": "#dbd7ca",
-	  "terminal.ansiBrightBlack": "#777777",
-	  "terminal.ansiBrightBlue": "#6394bf",
-	  "terminal.ansiBrightCyan": "#5eaab5",
-	  "terminal.ansiBrightGreen": "#4d9375",
-	  "terminal.ansiBrightMagenta": "#db889a",
-	  "terminal.ansiBrightRed": "#cb7676",
-	  "terminal.ansiBrightWhite": "#ffffff",
-	  "terminal.ansiBrightYellow": "#e6cc77",
-	  "terminal.ansiBlack": "#393a34",
-	  "terminal.ansiBlue": "#6394bf",
-	  "terminal.ansiCyan": "#5eaab5",
-	  "terminal.ansiGreen": "#4d9375",
-	  "terminal.ansiMagenta": "#db889a",
-	  "terminal.ansiRed": "#cb7676",
-	  "terminal.ansiWhite": "#ffffff",
-	  "terminal.ansiYellow": "#e6cc77",
 	  "gitDecoration.addedResourceForeground": "#24718f",
 	  "gitDecoration.modifiedResourceForeground": "#37c28d",
 	  "gitDecoration.deletedResourceForeground": "#cb7676",
@@ -392,6 +375,9 @@
 		  "entity.other.attribute-name",
 		  "meta.object-literal.key.js",
 		  "meta.object-literal.key.ts",
+		  "variable.other.property.js",
+		  "variable.other.property.ts",
+		  "support.variable.property",
 		  "attribute.name",
 		],
 		"settings": {
@@ -408,7 +394,6 @@
 		  "identifier",
 		  "punctuation.definition.template-expression.begin.js",
 		  "punctuation.definition.template-expression.begin.ts",
-		  "variable.other.property.ts"
 		],
 		"settings": {
 		  "foreground": "#17b898"
@@ -430,18 +415,6 @@
 		}
 	  },
 	  {
-		"scope": [
-			"invalid.broken",
-			"invalid.deprecated",
-			"invalid.illegal",
-			"invalid.unimplemented"
-		],
-		"settings": {
-		  "fontStyle": "italic",
-		  "foreground": "#fdaeb7"
-		}
-	  },
-	  {
 		"scope": "carriage-return",
 		"settings": {
 		  "fontStyle": "italic underline",
@@ -452,11 +425,15 @@
 	  },
 	  {
 		"scope": [
+			"invalid.broken",
+			"invalid.deprecated",
+			"invalid.illegal",
+			"invalid.unimplemented",
 			"message.error",
 			"brackethighlighter.unmatched"
 		],
 		"settings": {
-		  "foreground": "#fdaeb7"
+		  "foreground": "#f08a96"
 		}
 	  },
 	  {
