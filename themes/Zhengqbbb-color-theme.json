@@ -278,8 +278,6 @@
 		  "variable.other.object.ts",
 		  "variable.parameter.js",
 		  "variable.parameter.ts",
-		  "keyword.control.awk",
-		  "keyword.other.command.awk",
 		],
 		"settings": {
 		  "foreground": "#C98A7D"
@@ -288,7 +286,7 @@
 	  {
 		"scope": [
 		  "entity",
-		  "entity.name"
+		  "entity.name",
 		],
 		"settings": {
 		  "foreground": "#c47e44"
@@ -306,8 +304,6 @@
 		"scope": [
 		  "entity.name.tag",
 		  "tag.html",
-		  "keyword.operator.comparison.awk",
-		  "keyword.operator.assignment.awk",
 		],
 		"settings": {
 		  "foreground": "#429988"
@@ -366,10 +362,19 @@
 		"scope": [
 			"support.type.property-name.css",
 			"entity.name.tag.css",
-			"keyword.control.shell"
+			"keyword.control.shell",
 		],
 		"settings": {
-		  "foreground": "#1dceb6"
+		  "foreground": "#20d4bc"
+		}
+	  },
+	  {
+		"scope": [
+			"keyword.control.awk",
+		  	"keyword.other.command.awk",
+		],
+		"settings": {
+		  "foreground": "#e06c75"
 		}
 	  },
 	  {
@@ -403,7 +408,9 @@
 		}
 	  },
 	  {
-		"scope": "namespace",
+		"scope": [
+			"namespace",
+		],
 		"settings": {
 		  "foreground": "#db889a"
 		}
@@ -413,7 +420,12 @@
 			"keyword.operator.expansion.shell",
 			"keyword.operator.logical.shell",
 			"keyword.operator.redirect.shell",
-			"keyword.operator.pipe.shell"
+			"keyword.operator.pipe.shell",
+			"keyword.operator.arithmetic.awk",
+			"keyword.operator.boolean.awk",
+			"keyword.operator.trinary.awk",
+			"keyword.operator.comparison.awk",
+		  	"keyword.operator.assignment.awk",
 		],
 		"settings": {
 		  "foreground": "#39bed6"
