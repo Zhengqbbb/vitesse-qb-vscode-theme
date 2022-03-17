@@ -53,7 +53,7 @@
 	  "list.inactiveSelectionForeground": "#fffcef",
 	  "list.activeSelectionForeground": "#dbd7ca",
 	  "list.hoverBackground": "#313131",
-	  "list.inactiveSelectionBackground": "#292b31",
+	  "list.inactiveSelectionBackground": "#2a2d36",
 	  "list.activeSelectionBackground": "#181818",
 	  "list.inactiveFocusBackground": "#191a1d",
 	  "list.focusBackground": "#181818",
@@ -270,6 +270,7 @@
 		  "variable.other.bracket.shell",
 		  "variable.other.positional.shell",
 		  "variable.other.loop.shell",
+		  "support.function.builtin.shell",
 		  "variable.other.constant",
 		  "variable.other.readwrite.js",
 		  "variable.other.readwrite.ts",
@@ -306,7 +307,7 @@
 		  "entity.name.tag",
 		  "tag.html",
 		  "keyword.operator.comparison.awk",
-		  "keyword.operator.assignment.awk"
+		  "keyword.operator.assignment.awk",
 		],
 		"settings": {
 		  "foreground": "#429988"
@@ -324,6 +325,7 @@
 	  {
 		"scope": [
 			"support",
+			"keyword.operator.list.shell"
 		],
 		"settings": {
 		  "foreground": "#7aa0f3"
@@ -338,7 +340,7 @@
 			"keyword.operator",
 		],
 		"settings": {
-		  "foreground": "#ad7cdfea"
+		  "foreground": "#c48affea"
 		}
 	  },
 	  {
@@ -364,6 +366,7 @@
 		"scope": [
 			"support.type.property-name.css",
 			"entity.name.tag.css",
+			"keyword.control.shell"
 		],
 		"settings": {
 		  "foreground": "#1dceb6"
@@ -393,7 +396,7 @@
 		  "string variable",
 		  "identifier",
 		  "punctuation.definition.template-expression.begin.js",
-		  "punctuation.definition.template-expression.begin.ts",
+		  "punctuation.definition.template-expression.begin.ts"
 		],
 		"settings": {
 		  "foreground": "#17b898"
@@ -408,7 +411,9 @@
 	  {
 		"scope": [
 			"keyword.operator.expansion.shell",
-			"keyword.operator.logical.shell"
+			"keyword.operator.logical.shell",
+			"keyword.operator.redirect.shell",
+			"keyword.operator.pipe.shell"
 		],
 		"settings": {
 		  "foreground": "#39bed6"
