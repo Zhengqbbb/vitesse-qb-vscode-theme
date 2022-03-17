@@ -2,7 +2,7 @@
     "name": "vitesse-qb-vscode-theme",
     "displayName": "vitesse-qb",
     "description": "fork by vitesse theme",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "Zhengqbbb",
     "engines": {
         "vscode": "^1.65.0"
