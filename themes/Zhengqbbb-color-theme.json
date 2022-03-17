@@ -200,7 +200,8 @@
 			"constant.language.undefined.js",
 			"constant.language.null.js",
 			"constant.language.undefined.ts",
-			"constant.language.null.ts"
+			"constant.language.null.ts",
+			"keyword.operator.glob.shell"
 		],
 		"settings": {
 		  "foreground": "#f5c368"
@@ -402,7 +403,7 @@
 		  "string variable",
 		  "identifier",
 		  "punctuation.definition.template-expression.begin.js",
-		  "punctuation.definition.template-expression.begin.ts"
+		  "punctuation.definition.template-expression.begin.ts",
 		],
 		"settings": {
 		  "foreground": "#17b898"
