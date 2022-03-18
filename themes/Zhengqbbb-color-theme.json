@@ -218,6 +218,8 @@
                 "constant.language.null.js",
                 "constant.language.undefined.ts",
                 "constant.language.null.ts",
+                "support.type.primitive.ts",
+                "support.type.builtin.ts",
                 "keyword.operator.glob.shell",
             ],
             "settings": {
@@ -296,9 +298,11 @@
             }
         },
         {
-            "scope": ["entity.name.type"],
+            "scope": [
+                "entity.name.type",
+            ],
             "settings": {
-                "foreground": "#4ebcddfa"
+                "foreground": "#4ebcddfa",
             }
         },
         {
@@ -395,7 +399,7 @@
                 "punctuation.definition.template-expression.begin.ts"
             ],
             "settings": {
-                "foreground": "#17b996ec"
+                "foreground": "#17b996e3"
             }
         },
         {
