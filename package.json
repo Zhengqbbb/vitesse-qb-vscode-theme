@@ -24,7 +24,12 @@
             {
                 "label": "Vitesse qb dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Zhengqbbb-color-theme.json"
+                "path": "./themes/Zhengqbbb-dark-color-theme.json"
+            },
+            {
+                "label": "Vitesse qb dark pink",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zhengqbbb-dark-pink-color-theme.json"
             }
         ]
     },
