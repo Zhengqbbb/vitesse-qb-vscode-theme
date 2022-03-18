@@ -1,7 +1,7 @@
 {
     "name": "vitesse-qb-vscode-theme",
     "displayName": "vitesse-qb",
-    "description": "fork by vitesse theme",
+    "description": "fork vitesse theme",
     "version": "1.0.4",
     "publisher": "Zhengqbbb",
     "engines": {
@@ -10,11 +10,12 @@
     "keywords": [
         "theme",
         "vitesse",
+        "vitesse-qb",
         "dark"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Zhengqbbb/vitesse-qb"
+        "url": "https://github.com/Zhengqbbb/vitesse-qb-vscode-theme"
     },
     "categories": [
         "Themes"
