@@ -1,5 +1,7 @@
 # Welcome to your VS Code Extension
 
+https://css-tricks.com/creating-a-vs-code-theme/
+
 ## What's in the folder
 
 * This folder contains all of the files necessary for your color theme extension.
