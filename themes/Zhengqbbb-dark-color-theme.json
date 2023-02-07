@@ -252,28 +252,10 @@
             }
         },
         {
-            "scope": ["attribute.value"],
-            "settings": {
-                "foreground": "#d89487"
-            }
-        },
-        {
-            "name": "Constant",
             "scope": [
-                "constant",
-                "meta.brace",
-                "entity.name.constant",
-                "variable.language",
-                "meta.definition.variable",
-                "support.constant",
-                "punctuation.definition.list.begin.markdown"
-            ],
-            "settings": {
-                "foreground": "#d4976c"
-            }
-        },
-        {
-            "scope": [
+                "meta.expression.assignment.shell",
+                "variable.parameter.positional.all.shell",
+                "variable.parameter.positional.shell",
                 "variable.other.normal.shell",
                 "variable.other.special.shell",
                 "variable.other.bracket.shell",
@@ -293,9 +275,24 @@
             }
         },
         {
-            "scope": ["entity", "entity.name"],
+            "scope": ["attribute.value"],
             "settings": {
-                "foreground": "#c47e44"
+                "foreground": "#d89487"
+            }
+        },
+        {
+            "name": "Constant",
+            "scope": [
+                "constant",
+                "meta.brace",
+                "entity.name.constant",
+                "variable.language",
+                "meta.definition.variable",
+                "support.constant",
+                "punctuation.definition.list.begin.markdown"
+            ],
+            "settings": {
+                "foreground": "#d4976c"
             }
         },
         {
@@ -327,7 +324,14 @@
         },
         {
             "name": "KeyWord",
-            "scope": ["keyword", "storage", "storage.type", "keyword.operator"],
+            "scope": [
+                "keyword", 
+                "storage", 
+                "storage.type", 
+                "keyword.operator",
+                "string.unquoted.herestring.shell",
+                "punctuation.definition.string.heredoc.shell"
+            ],
             "settings": {
                 "foreground": "#c48affea"
             }
@@ -339,7 +343,16 @@
                 "storage.type.java",
                 "string source",
                 "markup.italic",
-                "markup.bold"
+                "markup.bold",
+                "entity", 
+                "entity.name", 
+                "string.unquoted.argument.shell",
+                "variable.other.assignment.shell",
+                "keyword.operator.assignment.shell",
+                "constant.numeric.decimal.shell",
+                "constant.other.option",
+                "constant.language.false.shell",
+                "constant.language.true.shell",
             ],
             "settings": {
                 "foreground": "#dbd7ca"
@@ -366,7 +379,10 @@
                 "keyword.control.shell",
                 "keyword.control.awk",
                 "keyword.other.command.awk",
-                "keyword.operator.list.shell"
+                "keyword.operator.list.shell",
+                "keyword.control.then.shell",
+                "keyword.control.else.shell",
+                "keyword.control.return.shell"
             ],
             "settings": {
                 "foreground": "#e06c76f3"
@@ -429,9 +445,7 @@
             "scope": "carriage-return",
             "settings": {
                 "fontStyle": "italic underline",
-                "background": "#f97583",
                 "foreground": "#24292e",
-                "content": "^M"
             }
         },
         {
@@ -520,7 +534,6 @@
                 "punctuation.definition.deleted"
             ],
             "settings": {
-                "background": "#86181d",
                 "foreground": "#fdaeb7"
             }
         },
@@ -531,14 +544,12 @@
                 "punctuation.definition.inserted"
             ],
             "settings": {
-                "background": "#144620",
                 "foreground": "#85e89d"
             }
         },
         {
             "scope": ["markup.changed", "punctuation.definition.changed"],
             "settings": {
-                "background": "#c24e00",
                 "foreground": "#ffab70"
             }
         },
