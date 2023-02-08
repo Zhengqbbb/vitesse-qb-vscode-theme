@@ -253,6 +253,7 @@
         },
         {
             "scope": [
+                "punctuation.definition.variable.shell",
                 "meta.expression.assignment.shell",
                 "variable.parameter.positional.all.shell",
                 "variable.parameter.positional.shell",
