@@ -382,6 +382,8 @@
                 "keyword.operator.list.shell",
                 "keyword.control.then.shell",
                 "keyword.control.else.shell",
+                "keyword.control.do.shell",
+                "keyword.control.elif.shell",
                 "keyword.control.return.shell"
             ],
             "settings": {
@@ -427,6 +429,7 @@
         },
         {
             "scope": [
+                "punctuation.separator.statement.and.shell",
                 "keyword.operator.expansion.shell",
                 "keyword.operator.logical.shell",
                 "keyword.operator.redirect.shell",
