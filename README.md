@@ -11,4 +11,4 @@
 - Some color schemes change
 - have a enjoy ! ~
 
-![demo](https://user-images.githubusercontent.com/40693636/158950757-0d415b9c-e9b9-4e3a-9a78-03efa1034468.png)
+![demo](https://user-images.githubusercontent.com/40693636/225110023-aca54267-dd59-46ac-b9bc-6ed8af8836be.png)
