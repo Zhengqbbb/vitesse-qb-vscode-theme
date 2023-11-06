@@ -365,6 +365,7 @@
                 "string.unquoted.argument.shell",
                 "variable.other.assignment.shell",
                 "keyword.operator.assignment.shell",
+                "keyword.operator.assignment.tsx",
                 "constant.numeric.decimal.shell",
                 "constant.other.option",
                 "constant.language.false.shell",
