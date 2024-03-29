@@ -331,7 +331,8 @@
                 "storage.type", 
                 "keyword.operator",
                 "string.unquoted.herestring.shell",
-                "punctuation.definition.string.heredoc.shell"
+                "punctuation.definition.string.heredoc.shell",
+                "punctuation.definition.string.heredoc.delimiter.shell",
             ],
             "settings": {
                 "foreground": "#c48affea"
@@ -355,6 +356,7 @@
                 "constant.other.option",
                 "constant.language.false.shell",
                 "constant.language.true.shell",
+                "string.regexp.unquoted.shell"
             ],
             "settings": {
                 "foreground": "#dbd7ca"
@@ -384,9 +386,19 @@
                 "keyword.operator.list.shell",
                 "keyword.control.then.shell",
                 "keyword.control.else.shell",
+                "keyword.control.while.shell",
                 "keyword.control.do.shell",
+                "keyword.control.done.shell",
+                "keyword.control.if.shell",
                 "keyword.control.elif.shell",
-                "keyword.control.return.shell"
+                "keyword.control.else.shell",
+                "keyword.control.fi.shell",
+                "keyword.control.return.shell",
+                "keyword.control.continue.shell",
+                "keyword.control.break.shell",
+                "keyword.control.case.shell",
+                "keyword.control.in.shell",
+                "keyword.control.esac.shell"
             ],
             "settings": {
                 "foreground": "#e06c76f3"

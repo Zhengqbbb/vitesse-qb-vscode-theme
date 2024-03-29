@@ -1,7 +1,5 @@
-# shellcheck shell=sh disable=SC1091,SC2034,SC3043 #xsh
+# shellcheck shell=dash
 
-# Section: Arg
-WORK_DIR="$(x wsroot)"
-
-# Section: Main
-pnpm vsce publish --no-dependencies
+(
+    pnpm vsce publish --no-dependencies
+)
